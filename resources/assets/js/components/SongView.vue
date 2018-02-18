@@ -452,16 +452,14 @@ function toggle_show_tr1(show) {
 
             fetchSong(id, translationid) {
             var self = this;
-               console.log('Fetching song')
+                var fetch_url = APP_URL + '/api/song/' + id + '/translation/' + translationid;
+               console.log('Fetching song (' + fetch_url + ')')
                this.status = 'fetchSong();';
 
-                this.$http.get(APP_URL + '/api/song/' + id + '/translation/' + translationid).then((response) => {
-                        //console.log('DO I NEED TO CREATE LYRICS COTNOOER?',this.LyricsController);
-                        
+                this.$http.get(fetch_url).then((response) => {
                         console.log(response);
                         this.LyricsController = new LyricsControl();
                         Vue.set(self.LyricsController.song,'current_id', -1);
-                        
 
                         //this.LyricsController.cocks = 'cocks loading';
                         //Vue.set(this.LyricsController,'cocks', 'cocks loading333');
@@ -491,18 +489,6 @@ function toggle_show_tr1(show) {
 
                         
                         this.song_loaded = 1;
-
-
-
-
-
-
-
-
-
-
-
-
                     if(document.getElementById('www-widgetapi-script') === null){
                         console.log('no iframe_api');
                       var tag = document.createElement('script');
