@@ -18,7 +18,7 @@ import VueRouter from 'vue-router'
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const YoutubeComponent = { template: '<div id="player"></div>' };
 Vue.component('youtube-component', YoutubeComponent);
