@@ -48279,12 +48279,11 @@ function LyricsControl() {
             var _this = this;
 
             var self = this;
-            console.log('Fetching song');
+            var fetch_url = APP_URL + '/api/song/' + id + '/translation/' + translationid;
+            console.log('Fetching song (' + fetch_url + ')');
             this.status = 'fetchSong();';
 
-            this.$http.get(APP_URL + '/api/song/' + id + '/translation/' + translationid).then(function (response) {
-                //console.log('DO I NEED TO CREATE LYRICS COTNOOER?',this.LyricsController);
-
+            this.$http.get(fetch_url).then(function (response) {
                 console.log(response);
                 _this.LyricsController = new LyricsControl();
                 Vue.set(self.LyricsController.song, 'current_id', -1);
@@ -48317,7 +48316,6 @@ function LyricsControl() {
 
 
                 _this.song_loaded = 1;
-
                 if (document.getElementById('www-widgetapi-script') === null) {
                     console.log('no iframe_api');
                     var tag = document.createElement('script');
