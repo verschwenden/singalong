@@ -14,6 +14,17 @@ class TranslationsTableSeeder extends Seeder
         DB::table('translations')->insert([
             'song_id' => 1,
             'tr_code' => 'en',
+            'title_tr1' => "Sammy v'Somo",
+            'title_tr2' => 'Sammy and Somo',
+            'lyrics_tr1' => "Sammy v\'Somo\nzug avaryanim\nal dodge dart nosim\narsim v\'muchbasim\nhem osim seder ba\'olam ha\'tachton\nkol milah shelahem hu ha\'mishpat ha\'elyon\nsichsuch ha\'vetah\nv\'sulchah kibalta\nmilah lo ba\'makom\nv\'tagid shalom\nki Sammy v\'Somo\nba\'aski ha\'bniah\nv\'yesh la\'hem ksharim amok ba\'adamah\n\nim l\'Sammy titchatsef\nkedai shetitchafef\nki somo yashev aleicha\nad shetetzah b\'yetzah\naz dirbalak achi\nv\'tzfeh pgiah\nkibalta panas ba\'achat\nmi\'yad tavi et ha\'shniyah\naz dag katan\ntizaher mikreshim shel dam\nsho\'alim la\'moach\nv\'ein le\'an livroach\nhem medabrim ba\'koach\nad she\'pokea varid\n\nad she\'disko manayak magia la\'schunah\nhineh disko menayek oseh kan mesibah\nim orot kchulim v\'azikim me\'mitachet\nv\'hajamah muzmenet me\'habaitim nishpechet\n\nv\'Sammy v\'Somo rokdim\net ha\'tango mishtarah\nhem kol kach mishtolelim\nmaki-im al ha\'ritzpah\n\nv\'disko manayak me\'arpel et ha\'chushim\nzeh disko menayek al sefer ha\'khukim\nv\'Sammy v\'Somo omrim kosomo\nv\'rokdim al ha\'dodge dart\nb\'tnuot shel motzart\n\ndisko manayak magia la\'schunah\nhineh disko menayek oseh kan mesibah\nim orot kchulim v\'azikim me\'mitachet\nv\'hajamah muzmenet me\'habaitim nishpechet",
+            'lyrics_tr2' => "Sammy and Somo\nA couple of criminals\nThey drive in a Dodge Dart\nArsim and freshly laundered\nThey set the lower world straight\nEvery one of their words is the high law\nYou brought along a dispute\nAnd you got a peacemaking ceremony\nAn impolite word\nAnd you\'ll say goodbye\nCause Sammy and Somo\nAre in the construction business\nAnd they have connections deep in the ground\n\nIf you talk back to Sammy,\nYou\'d better "beat it"\nCause Somo will sit on you\nUntil you come out an egg\nSo be very aware my brother,\nAnd expect a punch\nYou got one black eye\nVery soon you\'ll bring the second one\nSo, small fish\nBe careful around sharks of blood\nThat come up to the brain\nAnd there\'s nowhere to run away to\nThey speak with force\nUntil a vein bursts\n\nUntil Disco Maniac arrives in the neighbourhood\nHey, Disco Maniac is making a party here\nWith blue lights and metal handcuffs\nAnd the gang is invited, spilled from the houses\n\nAnd Sammy and Somo dance\nThe police tango\nThey go so wild\nVomiting on the floor\n\nAnd Disco Maniac dulls the senses\nIt\'s Disco Maniac on the law book\nAnd Sammy and Somo say "dammit!"\nAnd they dance on the Dodge Dart\nTo Mozart\'s movements\n\nDisco Maniac arrives in the neighbourhood\nHey, Disco Maniac is making a party here\nWith blue lights and metal handcuffs\nAnd the gang is invited, spilled from the houses"
+        ]);
+
+
+/*
+        DB::table('translations')->insert([
+            'song_id' => 1,
+            'tr_code' => 'en',
             'title_tr1' => 'SONG TITLE #1 (ENGLISH)',
             'title_tr2' => 'SONG TITLE #1 (ROMANIZATION)',
             'lyrics_tr1' => "line1.en\nline2.en\nline3.en\nline4.en\n",
@@ -120,7 +131,7 @@ class TranslationsTableSeeder extends Seeder
             'lyrics_tr1' => "Alone again\nYou have nobody\nSitting in the alone\nAnd shed many tears\n\nLike a dream\nHe left suddenly\nDidn''t say goodbye\nOr even [see you later]\n\nDo not take it to heart\nGet over the pain\nYou should not be sorry\nThere is always another one\n\nEmbarrassed\nEven tense\nAs if there is no way out\nAnd it is located in the thicket\n\nThere is nothing,\nThere is always tomorrow\nLove will burn\nAnd the sun will always burn for you\n\nDo not take it to heart\nGet over the pain\nYou should not be sorry\nThere is always another one\n\nDo not take it to heart\nGet over the pain\nYou should not be sorry\nThere is always another one\nanother one\n\nDo not take it to heart\nGet over the pain\nYou should not be sorry\nThere is always another one\nanother one",
             'lyrics_tr2' => "shuv levad\nein lach af echad\nyoshevet at ba''dad\nu''mezila dma-ot rabot\n\nkmo chalom\nhu azav pitom\nlo amar shalom\no afilu lo le''hit-ra-ot\n\nal tik-chi et ze le''lev\ntit-ga-bri al ha''ke-ev\nlo kedai le''hitz-ta-er\nyesh tamid echad acher\n\nnevucha\nafilu metucha\nke-ilu ein motza\nv''et nimtza-et be''toch ha''sbach\n\nein davar\ntamid yashno machar\nahavatech tivar\nv''ha''shemesh lach tamid tizrach\n\nal tik-chi et ze le''lev\ntit-ga-bri al ha''ke-ev\nlo kedai le''hitz-ta-er\nyesh tamid echad acher\n\nal tik-chi et ze le''lev\ntit-ga-bri al ha''ke-ev\nlo kedai le''hitz-ta-er\nyesh tamid echad acher\nechad acher\n\nal tik-chi et ze le''lev\ntit-ga-bri al ha''ke-ev\nlo kedai le''hitz-ta-er\nyesh tamid echad acher\nechad acher",
         ]);
-
+*/
 
 
 

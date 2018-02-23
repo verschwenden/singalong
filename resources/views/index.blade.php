@@ -49,7 +49,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Home</a>
+      <!--<a class="navbar-brand" href="#">Home</a>!-->
+
+      <!-- to fix:
+        not working, shows # instead of #/ !-->
+      <router-link to="/" class="navbar-brand">Home</router-link> 
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
