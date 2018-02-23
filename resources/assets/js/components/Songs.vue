@@ -22,20 +22,22 @@
           <thead>
             <tr>
               <th>Song</th>
+              <!--
               <th>Artists</th>
+              !-->
               <th>Translations</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(song, sindex) in songs">
               <td><span class="sup">{{song.lang }}</span> {{ song.title }}</td>
-              
+<!--
               <td>
                 <div v-for="(artist, aindex) in song.artists">
                   <span>{{artist.name }}</span>
                 </div>
               </td>
-
+!-->
               <td>
                 <div v-for="(translation, tindex) in song.translations">
                   <span class="sup">{{translation.lang }}</span> <router-link :to="{ name: 'SongView', params: { id: song.id, translationid: translation.id }}">

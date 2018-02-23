@@ -47397,6 +47397,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /*
 <!--
@@ -47506,15 +47508,6 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "td",
-                    _vm._l(song.artists, function(artist, aindex) {
-                      return _c("div", [
-                        _c("span", [_vm._v(_vm._s(artist.name))])
-                      ])
-                    })
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "td",
                     _vm._l(song.translations, function(translation, tindex) {
                       return _c(
                         "div",
@@ -47538,9 +47531,9 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n                  " +
+                                "\n                    " +
                                   _vm._s(translation.title_tr1) +
-                                  "\n                "
+                                  "\n                  "
                               )
                             ]
                           )
@@ -47604,7 +47597,7 @@ var render = function() {
               ),
           _vm._v(" "),
           _c("li", [
-            _vm._v("\n        " + _vm._s(_vm.current_page) + "\n      ")
+            _vm._v("\n          " + _vm._s(_vm.current_page) + "\n        ")
           ]),
           _vm._v(" "),
           _vm.last_page == 1
@@ -47662,8 +47655,6 @@ var staticRenderFns = [
     return _c("thead", [
       _c("tr", [
         _c("th", [_vm._v("Song")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Artists")]),
         _vm._v(" "),
         _c("th", [_vm._v("Translations")])
       ])
