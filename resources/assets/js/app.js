@@ -26,6 +26,7 @@ Vue.component('youtube-component', YoutubeComponent);
 //import Hello from './components/Hello.vue';
 import Songs from './components/Songs.vue';
 import SongView from './components/SongView.vue';
+import SongEditor from './components/SongEditor.vue';
 
 Vue.use(VueRouter);
 
@@ -48,7 +49,8 @@ const routes = [
   //{ path: '/bar', component: Bar },
   { path: '/', component: Songs },
   { path: '/songs/:page', name: 'Songs', component: Songs },
-  { path: '/song/:id/:translationid', name: 'SongView', component: SongView }
+  { path: '/song/:id/:translationid', name: 'SongView', component: SongView },
+  { path: '/editor', name: 'SongEditor', component: SongEditor }
 ];
 
 // 3. Create the router instance and pass the `routes` option
