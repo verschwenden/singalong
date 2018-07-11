@@ -15,15 +15,15 @@
   <div>
     <div class="row">
         <div class="col-md-6">
-            <div class="yt_container">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <youtube-component></youtube-component>
-                </div>
+            <div>
+                <form @submit.prevent="handleSubmit">
+                    <label>
+                      JSON:
+                      <input type="textarea" v-model="user.email"/>
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-
-            <hr>
-
-            Youtube link: <input type="text" id="txt_song_youtube name"/>
         </div>
     </div>
     <br>
@@ -34,5 +34,22 @@
 <script>
     window.onload=function() {
         console.log('[+] SongEditor loaded');
+    }
+
+    export default {
+      data() {
+        return {
+          user: {
+            email: '',
+          }
+        }
+      },
+
+      methods: {
+        handleSubmit() {
+          // Send data to the server or update your stores and such.
+          alert(1);
+        }
+      }
     }
 </script>

@@ -47224,9 +47224,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1afc2c16", Component.options)
+    hotAPI.createRecord("data-v-29c08b98", Component.options)
   } else {
-    hotAPI.reload("data-v-1afc2c16", Component.options)
+    hotAPI.reload("data-v-29c08b98", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -47247,13 +47247,13 @@ var content = __webpack_require__(46);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("3611c3f1", content, false);
+var update = __webpack_require__(4)("ee7012ea", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1afc2c16\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Songs.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1afc2c16\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Songs.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-29c08b98\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Songs.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-29c08b98\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Songs.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -47669,7 +47669,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-1afc2c16", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-29c08b98", module.exports)
   }
 }
 
@@ -47713,9 +47713,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d1c3071c", Component.options)
+    hotAPI.createRecord("data-v-0d44d5b0", Component.options)
   } else {
-    hotAPI.reload("data-v-d1c3071c", Component.options)
+    hotAPI.reload("data-v-0d44d5b0", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -47736,13 +47736,13 @@ var content = __webpack_require__(52);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("1e634450", content, false);
+var update = __webpack_require__(4)("41d1408a", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d1c3071c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongView.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d1c3071c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongView.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0d44d5b0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongView.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0d44d5b0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongView.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -48008,13 +48008,13 @@ function LyricsControl() {
         }, diff);
 
         /*
-                if(next_id == timing.times.length) {
+                  if(next_id == timing.times.length) {
                 console.log('already reached end should not start new timer');
                 this.end_timer();
                 return;
               }
-               console.log('Starting timer for ' + next_id + ', (' + timing.times[next_id] + '|' + timing.lines[next_id] + ') = ' + diff);
-          */
+                console.log('Starting timer for ' + next_id + ', (' + timing.times[next_id] + '|' + timing.lines[next_id] + ') = ' + diff);
+            */
 
         //console.log('Current ID: ' + timing.current_id + '/' + timing.times.length);
         //console.log('Next ID: ' + next_id);
@@ -48218,7 +48218,7 @@ function LyricsControl() {
             document.getElementsByClassName('line_tr1')[0].style.visibility = 'hidden';
         }
     }
-     */
+      */
 
     /*'onReady': function(event) {
     console.log('onReady');
@@ -48555,7 +48555,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d1c3071c", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-0d44d5b0", module.exports)
   }
 }
 
@@ -48599,9 +48599,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-cac1b40c", Component.options)
+    hotAPI.createRecord("data-v-209427b8", Component.options)
   } else {
-    hotAPI.reload("data-v-cac1b40c", Component.options)
+    hotAPI.reload("data-v-209427b8", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48622,13 +48622,13 @@ var content = __webpack_require__(57);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("41c95d96", content, false);
+var update = __webpack_require__(4)("6599e41c", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-cac1b40c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongEditor.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-cac1b40c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongEditor.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-209427b8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongEditor.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-209427b8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./SongEditor.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -48653,8 +48653,10 @@ exports.push([module.i, "\n.song_info {\r\n    border: solid 1px;\r\n    border-
 
 /***/ }),
 /* 58 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
@@ -48690,8 +48692,26 @@ exports.push([module.i, "\n.song_info {\r\n    border: solid 1px;\r\n    border-
 //
 
 window.onload = function () {
-    console.log('[+] SongEditor loaded');
+  console.log('[+] SongEditor loaded');
 };
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      user: {
+        email: ''
+      }
+    };
+  },
+
+
+  methods: {
+    handleSubmit: function handleSubmit() {
+      // Send data to the server or update your stores and such.
+      alert(1);
+    }
+  }
+});
 
 /***/ }),
 /* 59 */
@@ -48704,18 +48724,46 @@ var render = function() {
   return _c("div", [
     _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-md-6" }, [
-        _c("div", { staticClass: "yt_container" }, [
+        _c("div", [
           _c(
-            "div",
-            { staticClass: "embed-responsive embed-responsive-16by9" },
-            [_c("youtube-component")],
-            1
+            "form",
+            {
+              on: {
+                submit: function($event) {
+                  $event.preventDefault()
+                  _vm.handleSubmit($event)
+                }
+              }
+            },
+            [
+              _c("label", [
+                _vm._v("\n                    JSON:\n                    "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.user.email,
+                      expression: "user.email"
+                    }
+                  ],
+                  attrs: { type: "textarea" },
+                  domProps: { value: _vm.user.email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.user, "email", $event.target.value)
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("button", { attrs: { type: "submit" } }, [_vm._v("Submit")])
+            ]
           )
-        ]),
-        _vm._v(" "),
-        _c("hr"),
-        _vm._v("\n\n          Youtube link: "),
-        _c("input", { attrs: { type: "text", id: "txt_song_youtube name" } })
+        ])
       ])
     ]),
     _vm._v(" "),
@@ -48728,7 +48776,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-cac1b40c", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-209427b8", module.exports)
   }
 }
 
